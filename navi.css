@@ -5,6 +5,7 @@
 .navi li {
     position: relative;
     top: 15px;
+    padding-bottom: 12px;
 }
 .navi ul {
     color: rgb(255, 255, 255);
@@ -16,8 +17,9 @@
     width: 550px;
     height: 50px;
 }
-ul :hover{
+li:hover{
     color: rgb(0, 0, 0);
+    border-bottom: 4px solid black;
 }
 a{
     text-decoration: none;
